@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Aleo", "Courier New", Courier, monospace;
+}
+
+/* body {
+  font-family: "Aleo", "Courier New", Courier, monospace;
+} */
+
+.container {
+  width: 96%;
+  margin: 50px auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 24%;
+  height: 346px;
+  padding-top: 11px;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  background: #ffffff;
+  border: 1px solid #6c63ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  padding-top: 8px;
+}
+
+.card-body,
+h3,
+.card-text {
+  text-align: center;
+}
+
+.card-text > p {
+  color: rgb(136, 126, 126);
+  font-size: 12px;
+  padding: 2px;
+}
+span > p {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 2px;
+}
+
+.view-more-link,
+a {
+  text-align: right;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.rsvp-but {
+  margin-top: 17px;
+  width: 356px;
+  height: 71px;
+  color: white;
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  background: #6c63ff;
+  border-radius: 0px 0px 3px 3px;
+  cursor: pointer;
+}
+.friends-but {
+  background-color: #25c2a0;
+}
+
+.join-but,
+.edit-but,
+.delete-but {
+  margin-top: 17px;
+  width: 100px;
+  height: 71px;
+  color: white;
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 0px 0px 3px 3px;
+}
+
+.join-but {
+  background: #25c2a0;
+  cursor: pointer;
+}
+
+.edit-but {
+  background: #6c63ff;
+  cursor: pointer;
+}
+
+.delete-but {
+  background: #c22525;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 40%;
+  }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 40%;
+  }
+
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
